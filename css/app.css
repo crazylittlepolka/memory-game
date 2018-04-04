@@ -34,13 +34,14 @@ text-align: center;
   cursor: pointer;
   filter: saturate(100%);
   transition: all 0.8s ease-in-out;
+  font-size: 0;
+}
+
+.circle .clicked
+{
   font-size: 36px;
 }
 
-li i
-{
-  visibility: hidden;
-}
 .circle:hover
 {
   filter: saturate(150%);
